@@ -46,6 +46,7 @@ if(isset($_POST["simpan"])){
                 <input type="number" name="stok" required>
             </div>
             <button class="btn btn-primary" type="submit" name="simpan">Simpan ke Gudang</button>
+            <a href="../../index.php" style="display:block; text-align:center; margin-top:10px; color:#666;">Batal</a>
         </form>
     </div>
 </body>

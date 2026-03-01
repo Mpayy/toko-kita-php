@@ -19,6 +19,8 @@ $result = mysqli_query($koneksi, $query);
         <p>Halo, <strong><?= $_SESSION['nama']; ?></strong>! | <a href="auth/logout.php">Keluar dari Sistem</a></p>
         <h2>📦 Daftar Stok Barang</h2>
         <a href="modules/barang/tambah_barang.php" class="btn-tambah">+ Tambah Barang Baru</a>
+        <a href="modules/transaksi/tambah.php" class="btn-tambah">+ Tambah Transaksi Baru</a>
+        <a href="modules/transaksi/index.php" class="btn-tambah">Lihat Riwayat Transaksi</a>
         
         <table>
             <thead>

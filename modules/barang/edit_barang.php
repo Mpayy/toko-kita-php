@@ -54,7 +54,7 @@ if (isset($_POST['update'])) {
             <input type="number" name="stok" value="<?= $data['stok'] ?>" required>
             
             <button class="btn btn-primary" type="submit" name="update">Simpan Perubahan</button>
-            <a href="index.php" style="display:block; text-align:center; margin-top:10px; color:#666;">Batal</a>
+            <a href="../../index.php" style="display:block; text-align:center; margin-top:10px; color:#666;">Batal</a>
         </form>
     </div>
 </body>
